@@ -25,4 +25,4 @@ for char in number:
     elif char == '9':
         numbers.append('dziewięć')
 
-print(numbers)
+print([' '.join(numbers)])
