@@ -1,23 +1,28 @@
+
 number = input('Podaj liczbę')
+
+numbers = []
 
 for char in number:
     if char == '0':
-        print('zero')
+        numbers.append('zero')
     elif char == '1':
-        print('jeden')
+        numbers.append('jeden')
     elif char == '2':
-        print('dwa')
+        numbers.append('dwa')
     elif char == '3':
-        print('trzy')
+        numbers.append('trzy')
     elif char == '4':
-        print('cztery')
+        numbers.append('cztery')
     elif char == '5':
-        print('pięć')
+        numbers.append('pięć')
     elif char == '6':
-        print('sześć')
+        numbers.append('sześć')
     elif char == '7':
-        print('siedem')
+        numbers.append('siedem')
     elif char == '8':
-        print('osiem')
+        numbers.append('osiem')
     elif char == '9':
-        print('dziewięć')
+        numbers.append('dziewięć')
+
+print(numbers)
