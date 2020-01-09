@@ -24,5 +24,6 @@ for char in number:
         numbers.append('osiem')
     elif char == '9':
         numbers.append('dziewięć')
+        
 
 print([' '.join(numbers)])
